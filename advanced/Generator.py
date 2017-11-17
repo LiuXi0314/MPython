@@ -26,3 +26,22 @@ def fib(max):
 
 for s in fib(100000):
     print(s)
+
+
+def pG():
+    print(1)
+    yield 1
+    print(2)
+    yield 2
+    print(3)
+
+
+g = pG()
+i = 0
+
+while i < 6:
+    try:
+        next(g)
+    except StopIteration as  e:
+        print(e.value)
+        break
