@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# print(ord('a'))
-# print(ord('A'))
-# print(chr(69))
-# x = b'A'
-# print(x)
+print(ord('a'))
+print(ord('A'))
+print(chr(69))
+x = b'A'
+print(x)
 
 print("acs".encode("ascii"))
 print("中文".encode("utf-8"))
