@@ -13,7 +13,6 @@ print(list(map(fun, list_1)))
 
 
 # 测试
-
 # 输入：['adam', 'LISA', 'barT']，输出：['Adam', 'Lisa', 'Bart']：
 def format_name(name):
     name = name.capitalize()
